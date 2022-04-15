@@ -1,0 +1,128 @@
+.blogs {
+    padding-top: 88px;
+    padding-bottom: 80px;
+    background-color: #FFFFFF;
+}
+
+.blogs .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    padding-top: 88px;
+    padding-bottom: 71px;
+}
+
+.blogs__title {
+    font-size: 3.2rem;
+    line-height: 1.18;
+    text-align: center;
+    color: #000000;
+}
+
+.blogs__text {
+    font-size: 1.8rem;
+    line-height: 1.35;
+    text-align: center;
+    color: #000000;
+    /* кавычки */
+}
+
+.blogs__text::before {
+    content: '\201c';
+}
+
+.blogs__text::after {
+    content: '\201d';
+}
+
+.blogs__content {
+    display: flex;
+
+}
+
+.blogs__picture {
+    width: 400px;
+}
+
+.blogs__img {
+    width: 100%;
+}
+
+.blog__description {
+    padding: 63px 100px 49px;
+    display: flex;
+    flex-direction: column;
+    background-color: #231F20;
+}
+
+.blogs__subtext {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+
+.blogs__subtitle {
+    font-size: 4.8rem;
+    line-height: 1.2;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+}
+
+.blogs__link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+
+.list {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.list__item .hover {
+    background-color: #FFFFFF;
+    min-width: 570px;
+    min-height: 290px;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.list__title {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1.41;
+    color: #000000;
+}
+
+.list__text {
+    font-size: 1.8rem;
+    line-height: 1.41;
+    color: #000000;
+}
+
+.list__link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 1.41;
+    color: #000000;
+}
