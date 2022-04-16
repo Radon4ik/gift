@@ -13,35 +13,37 @@
     <main>
         <!-- hero start -->
         <section class="hero">
-            <header class="header">
-                <a href="#" class="header__logo">logo</a>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__item">
-                            <a href="#" class="header__link">
-                                Home
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__link">
-                                About Us
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__link">
-                                Services
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__link">
-                                Blogs
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <button class="btn btn--sm">
-                    Gift Finder
-                </button>
+            <header class="header" id="home">
+                <div class="container">
+                    <a href="https://www.google.com/" class="header__logo">logo</a>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class="header__link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#About" class="header__link">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#Services" class="header__link">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#Blogs" class="header__link">
+                                    Blogs
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="btn btn--sm">
+                        Gift Finder
+                    </button>
+                </div>
             </header>
             <div class="hero__content">
                 <div class="container">
@@ -68,7 +70,7 @@
         <!-- hero end -->
 
         <!-- about start -->
-        <section class="about">
+        <section class="about" id="About">
             <div class="container">
                 <div class="about__picture">
                     <img src="img/media.jpg" alt="" class="about__img">
@@ -91,20 +93,18 @@
         <!-- about end -->
 
         <!-- advantage start -->
-        <section class="advantage">
+        <section class="advantage" id="Services">
             <div class="container">
-                <div class="advantage__container">
-                    <h2 class="advantage__title">
-                        Gifts for all Occasions
-                    </h2>
-                    <p class="advantage__text">
-                        Try our web app to find the best gifts for all occasions
-                    </p>
-                </div>
+                <h2 class="advantage__title">
+                    Gifts for all Occasions
+                </h2>
+                <p class="advantage__text">
+                    Try our web app to find the best gifts for all occasions
+                </p>
                 <ul class="advantage__list">
                     <li class="advantage__item">
-                        <div class="hover">
-                            <img src="img/Birthday.jpg" alt="" class="advantage__img">
+                        <img src="img/Birthday.jpg" alt="" class="advantage__img">
+                        <div class="advantage__textbox">
                             <p class="advantage__subtext">
                                 Birthday
                             </p>
@@ -114,8 +114,8 @@
                         </div>
                     </li>
                     <li class="advantage__item">
-                        <div class="hover">
-                            <img src="img/Anniversary.jpg" alt="" class="advantage__img">
+                        <img src="img/Anniversary.jpg" alt="" class="advantage__img">
+                        <div class="advantage__textbox">
                             <p class="advantage__subtext">
                                 Anniversary
                             </p>
@@ -125,19 +125,19 @@
                         </div>
                     </li>
                     <li class="advantage__item">
-                        <div class="hover">
-                            <img src="img/Valentine.jpg" alt="" class="advantage__img">
+                        <img src="img/Valentine.jpg" alt="" class="advantage__img">
+                        <div class="advantage__textbox">
                             <p class="advantage__subtext">
                                 Valentine's Day
                             </p>
                             <a href="" class="advantage__link">
-                               See More
+                                See More
                             </a>
                         </div>
                     </li>
                     <li class="advantage__item">
-                        <div class="hover">
-                            <img src="img/Christmas.jpg" alt="" class="advantage__img">
+                        <img src="img/Christmas.jpg" alt="" class="advantage__img">
+                        <div class="advantage__textbox">
                             <p class="advantage__subtext">
                                 Christmas
                             </p>
@@ -148,40 +148,41 @@
                     </li>
                 </ul>
             </div>
-            <div class="bottom">
-                <div class="container">
-                    <div class="bottom__container">
-                        <p class="bottom__text">
-                            Ready to get started?
-                        </p>
-                        <p class="bottom__text">
-                            Sign up or contact us
-                        </p>
-                    </div>
-                    <div class="buttons">
-                        <button class="btn btn--black">
-                            Find gift now
-                        </button>
-                        <button class="btn">
-                            how it works
-                        </button>
-                    </div>
+        </section>
+        <!-- box start -->
+        <section class="box">
+            <div class="container">
+                <div class="box__container">
+                    <p class="box__text">
+                        Ready to get started?
+                    </p>
+                    <p class="box__text">
+                        Sign up or contact us
+                    </p>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn--black">
+                        Find gift now
+                    </button>
+                    <button class="btn">
+                        how it works
+                    </button>
                 </div>
             </div>
         </section>
+        <!-- box end -->
+
         <!-- advantage end -->
 
         <!-- blogs start -->
-        <section class="blogs">
+        <section class="blogs" id="Blogs">
             <div class="container">
-                <div class="blogs__container">
-                    <h2 class="blogs__title">
-                        Our Best Blogs Ever
-                    </h2>
-                    <p class="blogs__text">
-                        Try our blog to find the best tips and tricks to select your gift
-                    </p>
-                </div>
+                <h2 class="blogs__title">
+                    Our Best Blogs Ever
+                </h2>
+                <p class="blogs__text">
+                    Try our blog to find the best tips and tricks to select your gift
+                </p>
                 <div class="blogs__content">
                     <div class="blogs__picture">
                         <img src="img/Pair.jpg" alt="" class="blogs__img">
@@ -200,33 +201,29 @@
                 </div>
                 <ul class="list">
                     <li class="list__item">
-                        <div class="hover">
-                            <h3 class="list__title">
-                                Database to find the gifts for your girlfriend
-                            </h3>
-                            <p class="list__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore...
-                            </p>
-                            <a href="#" class="list__link">
-                                Read More
-                            </a>
-                        </div>
+                        <h3 class="list__title">
+                            Database to find the gifts for your girlfriend
+                        </h3>
+                        <p class="list__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore...
+                        </p>
+                        <a href="#" class="list__link">
+                            Read More
+                        </a>
                     </li>
                     <li class="list__item">
-                        <div class="hover">
-                            <h3 class="list__title">
-                                How Artificial Intelligence read your mind to find the best gift
-                            </h3>
-                            <p class="list__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut
-                                labore et dolore...
-                            </p>
-                            <a href="#" class="list__link">
-                                Read More
-                            </a>
-                        </div>
+                        <h3 class="list__title">
+                            How Artificial Intelligence read your mind to find the best gift
+                        </h3>
+                        <p class="list__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore...
+                        </p>
+                        <a href="#" class="list__link">
+                            Read More
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -239,12 +236,12 @@
             <div class="head">
                 <ul class="head__list">
                     <li class="head__item">
-                        <a href="#" class="head__link">
+                        <a href="#home" class="head__link">
                             Home
                         </a>
                     </li>
                     <li class="head__item">
-                        <a href="#" class="head__link">
+                        <a href="#About" class="head__link">
                             About
                         </a>
                     </li>
@@ -254,12 +251,12 @@
                         </a>
                     </li>
                     <li class="head__item">
-                        <a href="#" class="head__link">
+                        <a href="#Services" class="head__link">
                             Service
                         </a>
                     </li>
                     <li class="head__item">
-                        <a href="#" class="head__link">
+                        <a href="#Blog" class="head__link">
                             Blog
                         </a>
                     </li>
@@ -268,27 +265,27 @@
             <div class="footer__container">
                 <ul class="footer__list">
                     <li class="footer__item">
-                        <a href="#" class="footer__link">
+                        <a href="https://m.facebook.com/" class="footer__link">
                             <img src="img/facebook.svg" alt="" class="footer__img">
                         </a>
                     </li>
                     <li class="footer__item">
-                        <a href="#" class="footer__link">
+                        <a href="https://www.twitch.tv/" class="footer__link">
                             <img src="img/twitter.svg" alt="" class="footer__img">
                         </a>
                     </li>
                     <li class="footer__item">
-                        <a href="#" class="footer__link">
+                        <a href="https://www.instagram.com/" class="footer__link">
                             <img src="img/instagram.svg" alt="" class="footer__img">
                         </a>
                     </li>
                     <li class="footer__item">
-                        <a href="#" class="footer__link">
+                        <a href="https://www.youtube.com/" class="footer__link">
                             <img src="img/youtube.svg" alt="" class="footer__img">
                         </a>
                     </li>
                     <li class="footer__item">
-                        <a href="#" class="footer__link">
+                        <a href="https://www.pinterest.ru/" class="footer__link">
                             <img src="img/pinterest.svg" alt="" class="footer__img">
                         </a>
                     </li>

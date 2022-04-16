@@ -12,11 +12,18 @@
     src: url(../fonts/Roboto-Regular.woff) format("woff");
     font-display: swap;
 }
+@font-face {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/Roboto-Bold.woff) format("woff");
+    font-display: swap;
+}
 
 body, html {
     font-family: Roboto, sans-serif;
     font-size: 10px;
-    width: 1440px;
+    scroll-behavior: smooth;
 }
 
 * {

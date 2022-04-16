@@ -4,25 +4,12 @@
     background-color: #FFFFFF;
 }
 
-.blogs .container {
-    display: flex;
-    flex-direction: column;
-}
-
-.blogs__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 23px;
-    padding-top: 88px;
-    padding-bottom: 71px;
-}
-
 .blogs__title {
     font-size: 3.2rem;
     line-height: 1.18;
     text-align: center;
     color: #000000;
+    margin-bottom: 23px;
 }
 
 .blogs__text {
@@ -30,7 +17,7 @@
     line-height: 1.35;
     text-align: center;
     color: #000000;
-    /* кавычки */
+    margin-bottom: 64px;
 }
 
 .blogs__text::before {
@@ -43,6 +30,7 @@
 
 .blogs__content {
     display: flex;
+    margin-bottom: 40px;
 
 }
 
@@ -84,40 +72,42 @@
 }
 
 .list {
-    padding-top: 40px;
-    padding-bottom: 80px;
     display: flex;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
-
-.list__item .hover {
-    background-color: #FFFFFF;
-    min-width: 570px;
+.list__item  {
     min-height: 290px;
-    height: auto;
-    padding: 40px;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    gap: 16px;
+    padding: 50px;
 }
+
+.list__item:hover {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    transition: all 1.3s;
+
+}
+
 
 .list__title {
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 1.41;
     color: #000000;
+    margin-bottom: 16px;
 }
 
 .list__text {
     font-size: 1.8rem;
     line-height: 1.41;
     color: #000000;
+    margin-bottom: 16px;
+    flex-grow: 1;
+
 }
 
 .list__link {
